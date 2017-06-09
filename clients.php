@@ -24,7 +24,7 @@ $result = mysqli_query( $conn, $query );
 // if value is deletesuccess then display alert saying Client Deleted
 
 if(isset($_GET['alert'])) {
-    if($_GET['alert'] == 'success') {
+    if($_GET['alert'] == 'createsuccess') {
         $alertMessage = "<div class='alert alert-success'>New client added! <a class='close' data-dismiss='alert'>&times;</a> </div>";
     }
     elseif($_GET['alert'] == 'updatesuccess') {

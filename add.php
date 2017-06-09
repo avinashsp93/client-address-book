@@ -50,7 +50,7 @@
 
             // check if the query was successful, if so redirect to the Clients page else display error message
             if($result) {
-                header('location: clients.php?alert=success');
+                header('location: clients.php?alert=createsuccess');
             } else {
                 echo "error: ".$query. "<br>" .mysqli_error($conn);
             }

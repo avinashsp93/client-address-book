@@ -16,17 +16,25 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <?php 
                 // display the below logout markup in the header if the session globals still has the user
-                if($_SESSION['loggedInUser']) {
+                if(isset($_SESSION['loggedInUser'])) {
+                    if($_SESSION['loggedInUser']) {
             ?>
             <ul class="nav navbar-nav">
                 <li><a href="clients.php">My Clients</a></li>
                 <li><a href="add.php">Add Client</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <p class="navbar-text">Aloha, Brad</p>
+                <p class="navbar-text">Welcome <strong>Avinash</strong></p>
                 <li><a href="logout.php">Logout</a></li>
             </ul>
             <?php
+                    } else {
+            ?>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="clients.php">Login</a></li>
+                </ul>
+            <?php
+                    }
                 // display the below login markup in the
                 } else {
             ?>

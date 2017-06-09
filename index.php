@@ -82,7 +82,6 @@
         <button type="submit" class="btn btn-primary" name="login">Login</button>
     </form>
     <br><hr>
-    
     <?php
         // all we need to display the page footer
         include('includes/footer.php');
