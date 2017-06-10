@@ -1,7 +1,8 @@
-<!--Add Clients-->
+<!--Adding Clients Page-->
+
 
 <?php
-    // 
+    
     session_start();    // start the session to store the information of the user logging in.
 
     // redirect to login page if the session doesn't have a user

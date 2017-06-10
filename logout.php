@@ -1,3 +1,6 @@
+<!--Logout Page-->
+
+
 <?php
 
     // This page has some issues and is still under construction....

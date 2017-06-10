@@ -1,3 +1,6 @@
+<!--DB Connection Module-->
+
+
 <?php
 
     $server = 'localhost';

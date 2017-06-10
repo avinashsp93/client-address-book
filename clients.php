@@ -1,4 +1,8 @@
+<!--Home Page-->
+
+
 <?php
+
 // declare empty variables
 $query = $result = $alertMessage = '';
 

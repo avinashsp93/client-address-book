@@ -1,10 +1,10 @@
-<!--Login-->
+<!--Login Page-->
 
 
 <?php
 
     session_start();        // start the session to store the information of the user logging in.
-    include('includes/functions.php');      // // php script required to validate form data
+    include('includes/functions.php');      // php script required to validate form data
     
     // variable declaration and initialization
     $loginError = '';
